@@ -13,3 +13,5 @@ Coast Land rocks- https://polyhaven.com/a/coast_land_rocks_04
 Rocking chair - https://polyhaven.com/a/Rockingchair_01
 
 Bench- https://polyhaven.com/a/wooden_picnic_table
+
+ceiling fan- https://assetstore.unity.com/search#q=free%20asset%20ceiling%20fan
