@@ -19,3 +19,5 @@ ceiling fan- https://assetstore.unity.com/search#q=free%20asset%20ceiling%20fan
 Bedroom- https://assetstore.unity.com/packages/3d/props/furniture/bedroom-set-interior-264498
 
 TV- https://assetstore.unity.com/packages/3d/props/electronics/tv-led-30-336056
+
+Couch- https://assetstore.unity.com/packages/3d/props/furniture/chair-and-sofa-set-263004
