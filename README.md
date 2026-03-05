@@ -21,3 +21,5 @@ Bedroom- https://assetstore.unity.com/packages/3d/props/furniture/bedroom-set-in
 TV- https://assetstore.unity.com/packages/3d/props/electronics/tv-led-30-336056
 
 Couch- https://assetstore.unity.com/packages/3d/props/furniture/chair-and-sofa-set-263004
+
+Boats- https://assetstore.unity.com/packages/3d/vehicles/sea/boats-polypack-189866
