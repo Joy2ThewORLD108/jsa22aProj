@@ -29,3 +29,5 @@ People - https://assetstore.unity.com/packages/3d/characters/city-people-free-sa
 Pier- https://assetstore.unity.com/packages/3d/props/exterior/low-poly-bridges-pack-1-3-lods-137690
 
 Desk- https://assetstore.unity.com/packages/3d/props/furniture/desk-table-96582
+
+Floor- https://polyhaven.com/a/slab_tiles
