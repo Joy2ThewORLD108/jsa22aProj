@@ -27,3 +27,5 @@ Boats- https://assetstore.unity.com/packages/3d/vehicles/sea/boats-polypack-1898
 People - https://assetstore.unity.com/packages/3d/characters/city-people-free-samples-260446
 
 Pier- https://assetstore.unity.com/packages/3d/props/exterior/low-poly-bridges-pack-1-3-lods-137690
+
+Desk- https://assetstore.unity.com/packages/3d/props/furniture/desk-table-96582
