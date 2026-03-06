@@ -31,3 +31,70 @@ Pier- https://assetstore.unity.com/packages/3d/props/exterior/low-poly-bridges-p
 Desk- https://assetstore.unity.com/packages/3d/props/furniture/desk-table-96582
 
 Floor- https://polyhaven.com/a/slab_tiles
+
+Code for Boats: using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody))]
+public class BoatController : MonoBehaviour
+{
+    [Header("Boat Settings")]
+    public float moveSpeed = 20f;
+    public float turnSpeed = 50f;
+    
+    [Header("Water Resistance")]
+    public float waterDrag = 2f;
+    public float waterAngularDrag = 2f;
+
+    private Rigidbody rb;
+    private float moveInput;
+    private float turnInput;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        
+        // Simulating water resistance so the boat doesn't glide forever
+        rb.drag = waterDrag;
+        rb.angularDrag = waterAngularDrag;
+        
+        // Keep the boat from tipping over easily
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+    }
+
+    void Update()
+    {
+        // 1. Gather Input during Update (W/S or Up/Down for forward/back, A/D or Left/Right for steering)
+        moveInput = Input.GetAxis("Vertical"); 
+        turnInput = Input.GetAxis("Horizontal"); 
+    }
+
+    void FixedUpdate()
+    {
+        // 2. Apply physics during FixedUpdate
+        MoveBoat();
+        TurnBoat();
+    }
+
+    private void MoveBoat()
+    {
+        // Push the boat in the direction it is currently facing
+        if (Mathf.Abs(moveInput) > 0.1f)
+        {
+            rb.AddForce(transform.forward * moveInput * moveSpeed, ForceMode.Acceleration);
+        }
+    }
+
+    private void TurnBoat()
+    {
+        // Rotate the boat around its Y (Up) axis
+        if (Mathf.Abs(turnInput) > 0.1f)
+        {
+            // Optional realism: You can multiply currentTurn by moveInput so the boat only turns when moving!
+            float currentTurn = turnInput * turnSpeed * Time.fixedDeltaTime;
+            
+            // Create a rotation quaternion and apply it to the Rigidbody
+            Quaternion turnRotation = Quaternion.Euler(0f, currentTurn, 0f);
+            rb.MoveRotation(rb.rotation * turnRotation);
+        }
+    }
+}
