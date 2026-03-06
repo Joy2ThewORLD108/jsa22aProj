@@ -35,3 +35,5 @@ Floor- https://polyhaven.com/a/slab_tiles
 Books- https://polyhaven.com/a/decorative_book_set_01
 
 clock- https://polyhaven.com/a/alarm_clock_01
+
+Paintings - https://assetstore.unity.com/packages/3d/props/customizable-photo-frames-356824
