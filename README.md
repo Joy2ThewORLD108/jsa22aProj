@@ -37,3 +37,5 @@ Books- https://polyhaven.com/a/decorative_book_set_01
 clock- https://polyhaven.com/a/alarm_clock_01
 
 Paintings - https://assetstore.unity.com/packages/3d/props/customizable-photo-frames-356824
+
+Duck- https://polyhaven.com/a/rubber_duck_toy
