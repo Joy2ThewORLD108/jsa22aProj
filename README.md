@@ -1,3 +1,5 @@
+Materials List:
+
 Mountainside - https://polyhaven.com/a/mountainside
 
 Rocky terrain 2- https://polyhaven.com/a/rocky_terrain_02
@@ -39,3 +41,19 @@ clock- https://polyhaven.com/a/alarm_clock_01
 Paintings - https://assetstore.unity.com/packages/3d/props/customizable-photo-frames-356824
 
 Duck- https://polyhaven.com/a/rubber_duck_toy
+
+ScreenShots of room:
+<img width="3531" height="1377" alt="image" src="https://github.com/user-attachments/assets/209372b0-fb07-4a7a-968b-2dc8d91ba3f0" />
+<img width="3538" height="1379" alt="image" src="https://github.com/user-attachments/assets/dc086185-802a-4536-9574-648995261154" />
+<img width="3533" height="1403" alt="image" src="https://github.com/user-attachments/assets/7f1d1e07-2695-4c25-9f24-859b4d61fb0f" />
+<img width="3537" height="1400" alt="image" src="https://github.com/user-attachments/assets/56886925-ebc2-4e20-a68e-a266680704a1" />
+<img width="3538" height="1380" alt="image" src="https://github.com/user-attachments/assets/a581097b-cfa9-4eb2-9a11-c523490e3003" />
+<img width="3533" height="1380" alt="image" src="https://github.com/user-attachments/assets/bd3ad2bf-d7c1-4217-8402-7b55673f6b6b" />
+<img width="3534" height="1376" alt="image" src="https://github.com/user-attachments/assets/17d7196b-dcbe-4928-a928-ba2119b9dd8b" />
+
+
+
+
+
+
+
